@@ -21,6 +21,6 @@ foreach ($values as $i => $value) {
 
 $weightedAverage = $weightedSum / $weightTotal;
 
-echo $weightedAverage; // wynik: 4.333333
+echo $weightedAverage; // wynik: 4.312233333
 
 ?>
