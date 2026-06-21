@@ -1,11 +1,9 @@
 version: 2.1 
-
 jobs: 
   build-and-test:  
     machine: 
       image: ubuntu-2004:current 
-
-  steps: 
+    steps: 
       - checkout 
       - run: make deps 
       - run: make test       
