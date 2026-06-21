@@ -5,7 +5,7 @@ function calculateAverage($array) {
 }
 
 $arr = [10, 20, 30, 40, 50];
-$average = calculateAverage($arr);
+$average = calculateSameAverage($arr);
 
 echo "The average is: " . $average;
 
